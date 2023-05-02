@@ -1,0 +1,14 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+ D:/WowAddonDev/UIXML/UI.xsd">
+	<Script file="Aspect_Vendors.lua" />
+	<Frame name="MerchoFrame" parent="UIParent">
+		<Scripts>
+			<OnLoad>
+				self:RegisterEvent("ADDON_LOADED")
+				self:RegisterEvent("MERCHANT_SHOW")
+				self:RegisterEvent("MERCHANT_UPDATE")
+			</OnLoad>
+			<OnEvent function="Aspect_Vendors_OnEvent" />
+		</Scripts>
+	</Frame>
+</Ui>
