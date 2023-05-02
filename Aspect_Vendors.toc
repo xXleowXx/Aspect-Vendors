@@ -1,0 +1,10 @@
+## Interface: 90205
+## Title: |cFFFF9900Aspect_Vendors|r
+## Notes: None
+## Author: XleowX
+## Version: 1.0
+## SavedVariablesPerCharacter: Data
+## SavedVariablesPerCharacter: Opcje
+
+Aspect_Vendors.lua
+Aspect_Vendors.xml
